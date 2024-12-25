@@ -1,0 +1,10 @@
+syntax:glob
+*~
+env
+__pycache__
+var/static
+var/media
+
+
+syntax: regexp
+logs/(?!\.hidden).+$
